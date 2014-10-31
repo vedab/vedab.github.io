@@ -68,6 +68,41 @@ header h2 {
   color: #666;
 }
 
+header h3 {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+header .social-follow {
+}
+
+.social-follow a {
+	display: inline-block;
+	width: 30px;
+	height: 41px;
+	margin-right: 0;
+	background: transparent url("../images/AdobeFW-KMsocialicons-30x43.png") no-repeat -110px -286px;
+}
+
+.social-follow a.google {
+	background-position: -316px -4px;
+}
+.social-follow a.facebook {
+	background-position: -177px -4px;
+}
+.social-follow a.twitter {
+	background-position: -246px -52px;
+}
+.social-follow a.linkedin {
+	background-position: -386px -4px;
+}
+.social-follow a.flickr {
+	background-position: -246px -4px;
+}
+.social-follow a.blogger {
+	background-position: -74px -4px;
+}
+
 #downloads .btn {
   display: inline-block;
   text-align: center;
