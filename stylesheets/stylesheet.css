@@ -113,6 +113,7 @@ header h3 {
 
 #main_content {
   width: 100%;
+  padding: 5px;
   -webkit-font-smoothing: antialiased;
 }
 section img {
