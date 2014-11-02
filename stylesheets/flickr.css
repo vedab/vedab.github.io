@@ -1,7 +1,10 @@
 #my_view {
-    border: 5px solid #f2f2f2;
+    border: 1px solid #f2f2f2;
     box-shadow: 5px 5px 5px #888;
     padding: 20px;
+}
+#my_view h2 {
+	text-shadow: 0 5px 10px rgba(181, 232, 83, 0.8)
 }
 #my_view img {
   margin:5px;
