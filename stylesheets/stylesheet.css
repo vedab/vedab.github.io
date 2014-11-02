@@ -171,10 +171,9 @@ ul li {
 ul li:before {
   content: ">>";
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-size: 13px;
+  font-size: 8px;
   color: #b5e853;
-  margin-left: -37px;
-  margin-right: 21px;
+  margin-left: 0;
   line-height: 16px;
 }
 
@@ -196,21 +195,6 @@ pre {
   text-wrap: normal;
   overflow: auto;
   overflow-y: hidden;
-}
-
-table {
-  width: 100%;
-  margin: 0 0 20px 0;
-}
-
-th {
-  text-align: left;
-  border-bottom: 1px dashed #b5e853;
-  padding: 5px 10px;
-}
-
-td {
-  padding: 5px 10px;
 }
 
 hr {
@@ -279,4 +263,48 @@ a {
 
 .cf {
   zoom:1;
+}
+
+/* My Container */
+.block-sec{
+    border: 1px solid #f2f2f2;
+    box-shadow: 5px 5px 5px #888;
+    padding: 20px;
+}
+.block-sec h2 {
+	text-shadow: 0 5px 10px rgba(181, 232, 83, 0.8)
+}
+.block-sec .nav a {
+  padding: 0 50px;
+  background-color: #2f2f2f;
+  border: 2px outset #f2f2f2;
+}
+
+.block-sec .nav {
+	top:50%;
+	cursor: pointer;
+}
+.block-sec .nav:hover a {
+	background-color: #b5e853;
+	color: #2f2f2f;
+	border: 2px inset #fff;
+}
+
+.block-sec .prev{ 
+	float: left;
+}
+
+.block-sec .next{
+	float: right;
+}
+.block-sec .content{
+	margin-top: 50px
+}
+.block-sec .content ul {
+	padding: 0;
+}
+.block-sec .content ul li {
+	border: 1px solid #2f2f2f; 
+	box-shadow: 1px 2px 3px;
+	margin-top: 10px;
 }

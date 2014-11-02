@@ -68,8 +68,7 @@
 	}
 	
 	function enlarge(){
-		var $me = $(this), imgEl = $("#my_view .full_img").empty().show();
-
+		var $me = $(this);
 		$('body').css({'background-image': "url("+$me.attr('href')+")", 'background-size':'100%'});
 
 		return false;
@@ -87,7 +86,6 @@
 		}
 		
 		var htm = '', photo = photoInfo.photo;
-
 		var span = document.createElement("span");
 		span.innerHTML = JSON.stringify(photo);
 		/*
@@ -98,7 +96,7 @@
 		}
 		span.innerHTML = htm;
 		*/
-		$("#my_view .full_img").append(span);
+		$(".flickr_cont .full_img").append(span);
 	}
 
 	//call it
