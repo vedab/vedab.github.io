@@ -1,3 +1,9 @@
+body{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .flickr-cont img {
   margin:5px;
   border:2px solid black;

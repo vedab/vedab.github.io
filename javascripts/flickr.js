@@ -69,7 +69,7 @@
 	
 	function enlarge(){
 		var $me = $(this);
-		$('body').css({'background-image': "url("+$me.attr('href')+")", 'background-size':'100%'});
+		$('body').css({'background': "url("+$me.attr('href')+") no-repeat center center fixed"});
 
 		return false;
 		/*
